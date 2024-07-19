@@ -71,12 +71,19 @@
 
         </div>
     </div>
-
-
-
     <!-- /logo Section end -->
 
 
+    <!-- Footer Section start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center text-orange">all right reserved @cnc web world</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- /Footer Section end-->
 
 
 
@@ -86,28 +93,30 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Form</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <input type="text" name="name" class="form-control mb-3" id="name" placeholder="Name ">
-                    <input type="email" name="email" class="form-control mb-3" id="email" placeholder="Email Address ">
-                    <input type="tel" name="whatsapp" class="form-control mb-3" id="whatsapp"
-                        placeholder="Whatsapp Number ">
-                    <select name="Select Course" id="course" class="form-select mb-3">
-                        <option>--Select Course--</option>
-                        <option value="Java Full stack Development">Java Full stack Development</option>
-                        <option value="Frontend Development">Frontend Development</option>
-                        <option value="Python Full Stack Development">Python Full Stack Development</option>
-                        <option value="PHP Full Stack Development">PHP Full Stack Development</option>
-                        <option value="Dot net full stack">Dot net full stack</option>
-                        <option value="Data Analytics">Data Analytics</option>
-                        <option value="Software Testing">Software Testing</option>
-                    </select>
-                    <textarea name="massege" id="massege" class="form-control mb-3"
-                        placeholder="Write Message"></textarea>
-                    <button type="button" class="btn btn-primary form-control" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Submit</button>
+                    <form action="" name="form">
+                        <input type="text" name="name" class="form-control mb-3" id="name" placeholder="Name" required>
+                        <input type="email" name="email" class="form-control mb-3" id="email"
+                            placeholder="Email Address " required>
+                        <input type="tel" name="whatsapp" class="form-control mb-3" id="whatsapp"
+                            placeholder="Whatsapp Number " required>
+                        <select name="Select Course" id="course" class="form-select mb-3">
+                            <option>--Select Course--</option>
+                            <option value="Java Full stack Development">Java Full stack Development</option>
+                            <option value="Frontend Development">Frontend Development</option>
+                            <option value="Python Full Stack Development">Python Full Stack Development</option>
+                            <option value="PHP Full Stack Development">PHP Full Stack Development</option>
+                            <option value="Dot net full stack">Dot net full stack</option>
+                            <option value="Data Analytics">Data Analytics</option>
+                            <option value="Software Testing">Software Testing</option>
+                        </select>
+                        <textarea name="massege" id="massege" class="form-control mb-3"
+                            placeholder="Write Message"></textarea>
+                        <button type="submit" class="btn btn-primary form-control">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
